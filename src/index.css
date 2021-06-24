@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.app{
+  display: flex;
+  height: 100vh;
+  /* background-image: url("bg2.jpg"); */
+  background-position: center;
+  background-size: 67%;
+  background-repeat: no-repeat;
+
+  /* border: 1px solid blue; */
+}
+
+
+.bookList{
+  background-image: url("bgLeft.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  width: 50%;
+}
+
+
+.bookListPage{
+  width: 45%;
+  height: 72%;
+  position: relative;
+  top: 10%;
+  left: 52%;
+  text-align: center;
+ 
+   /* border: 1px solid rgb(206, 77, 17); */
+}
+.bookListTitle{
+  text-align: center;
+  height: 40%;
+  /* border: 1px solid rgb(61, 206, 17); */
+}
+.bookListTitle h4{
+  font-style: italic;
+  padding-left: 7%;
+}
+.bookListText{
+  height: 50%;
+  /* border: 1px solid rgb(45, 17, 206); */
+}
+.bookListText select{
+  margin: 5%;
+  border-radius:  50% 20% / 210% 40%;
+  padding: 4%;
+  position: absolute;
+  left: 2%;
+}
+
+.bookListText button{
+  border-radius:  50% 20% / 210% 40%;
+  padding: 4%;
+  position: absolute;
+  bottom: 6%;
+  right: 0%;
+}
+
+
+.summary{
+  background-image: url("bgRight.png");
+  background-repeat: no-repeat;
+  background-position: left ;
+  background-size: contain;
+  width: 50%;
+  
+  /* border: 1px solid rgb(96, 212, 28); */
+}
+
+.summaryText{
+  width: 45%;
+  height: 72%;
+  position: relative;
+  top: 10%;
+  left: 1%;
+  text-align: center;
+  
+  /* border: 1px solid rgb(3, 37, 37); */
+}
+
+.notEmptyText{
+  position: absolute;
+  top:30%
+}
